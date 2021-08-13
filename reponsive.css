@@ -1,0 +1,137 @@
+
+/* Mobile and tablet width < 1024px */
+@media only screen and (max-width: 63.9375em) {
+    
+}
+/* Tablet and PC width >= 740px */
+@media only screen and (min-width: 46.25em) {
+   
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .container {
+        width: 430px;
+        /* height: 300px; */
+    }
+    section {
+        overflow: hidden;
+    }
+    .body {
+        overflow: hidden;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .square:nth-child(1) {
+        --size: 176px;
+        right: -90px;
+    }
+
+    .square:nth-child(2) {
+        --size: 130px;
+        left: -110px;
+    }
+
+    .square:nth-child(3) {
+        --size: 100px;
+        right: -75px;
+    }
+
+    .square:nth-child(4) {
+        --size: 60px;
+        bottom: -60px;
+        left: 85px;
+    }
+
+    .square:nth-child(5) {
+        --size: 45px;
+        left: 145px;
+    }
+   
+}
+
+/* PC width >= 1024px */
+@media only screen and (min-width: 1024px) {
+    
+}
+
+/* Mobile: width < 739px */
+@media only screen and (max-width: 46.1875em) {
+   .container {
+        width: 300px;
+        height: 300px;
+   }
+   section {
+    overflow: hidden;
+   }
+   .body {
+       overflow: hidden;
+   }
+   .box {
+        display: flex;
+        justify-content: center;
+   }
+   .form {
+       padding: 20px
+   }
+   .form h2{
+       margin-bottom: 40px;
+       font-size: 18px
+    }
+
+    .form_group {
+        margin-top: 20px;
+    }
+
+    
+    .form_group input::placeholder {
+        
+        font-weight: 50;
+    }
+
+    .form_group .error_mes {
+        font-size: 12px;
+    }
+    .forget {
+        font-size: 9px;
+        position: absolute;
+    }
+    .forget:nth-last-child(1) {
+        bottom: 22px;
+        left: 134px;
+    }
+    .forget:nth-last-child(2) {
+        bottom: 44px;
+        left: 134px;
+    }
+
+    .square:nth-child(1) {
+        --size: 120px;
+        right: -70px;
+    }
+
+    .square:nth-child(2) {
+        --size: 90px;
+        left: -80px;
+    }
+
+    .square:nth-child(3) {
+        --size: 60px;
+        right: -52px;
+    }
+
+    .square:nth-child(4) {
+        --size: 40px;
+        bottom: -60px;
+        left: 56px;
+    }
+
+    .square:nth-child(5) {
+        --size: 35px;
+        top: -50px;
+        left: 100px;
+    }
+}

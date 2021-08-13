@@ -14,8 +14,8 @@ html {
 }
 
 body{
-   
     position: relative;
+    width: 100%;
 }
 section {
     display: flex;
@@ -27,6 +27,7 @@ section {
 
 .box {
     position: relative;
+    
 }
 
 section .color_wrap .color {
